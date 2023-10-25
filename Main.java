@@ -51,7 +51,7 @@ public class Main {
             else {
                 System.out.println("Data not Updated");
             }*/
-            DELETE QUERY
+            //DELETE QUERY
             String query =String.format("DELETE FROM students WHERE id =2");
             int rowsAffected =statement.executeUpdate(query);
             if(rowsAffected>0)
